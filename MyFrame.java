@@ -13,6 +13,7 @@ public class MyFrame extends JFrame {
 	
 		super ("Test de fenêtre");
 		this.setSize( 300,200 );
+		this.setLocationRelativeTo(null);
 		this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 		this.setVisible(true);
 		
